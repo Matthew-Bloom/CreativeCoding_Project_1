@@ -49,7 +49,7 @@ void draw()
     if(key == 's' || key == 'S')
     {
       fill(0);
-      rect(0, width, 0, height); //These three lines of code essentially "reset" the background, removing the existing graphic and adding something new in its place.
+      rect(0, 0, width, height); //These three lines of code essentially "reset" the background, removing the existing graphic and adding something new in its place.
       noFill();
       
       pB.drawPsy();
@@ -57,7 +57,7 @@ void draw()
     if(key == 'm' || key == 'M')
     {
       fill(0);
-      rect(0, width, 0, height);
+      rect(0, 0, width, height);
       noFill();
       
       //[monster code?]
@@ -65,7 +65,7 @@ void draw()
     if(key == 'r' || key == 'R') //Hold down the R key for this effect.
     {
       fill(0);
-      rect(0, width, 0, height);
+      rect(0, 0, width, height);
       noFill();
       
       p9.drawPsy();
