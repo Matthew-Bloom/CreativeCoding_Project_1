@@ -4,7 +4,7 @@ class Psycho
   int yLoc;  //Global variables.
   int diameter;
 
-  Psycho(int x_, int y_, int d_) //Constructor functions.
+  Psycho(int d_, int x_, int y_) //Constructor functions.
   {
     xLoc = x_;    //Setting the variables of the class with values.
     yLoc = y_;
