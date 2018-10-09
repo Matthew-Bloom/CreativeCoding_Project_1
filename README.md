@@ -2,7 +2,7 @@
 This is my project 1 for Creative Coding.
 The adjective that my code is based off of is "psychedelic."
 
-In the project itself, you can press certain keys to alter the existing default pattern, allowing for a different effect depending on what you click.
+In the project itself, you can press certain keys to alter the existing default pattern, allowing for a different effect depending on what you click. /p
 You can press and hold the S key to remove all but the largest center circle, creating a different pattern for as long as you hold down the button.
 You can press and hold the D key to remove all but the four circles in the corners of the page and add a background behind them, creating a different pattern for as long as you hold down the button.
 You can press and hold the F key to highlight the top right and bottom left circles and add a background behind them, creating a different pattern for as long as you hold down the button.
