@@ -14,7 +14,7 @@ class Psycho
     //This is the basic building block which the pattern will be made from.
     for (int i = diameter; i >= 0; i = i - 5)
     {
-      if (i % 2 == 0) //This checks for even numbers, so the pattern only happens every other iteration. This results in alternating rings of random colors and pure black.
+      if (i % 3 == 0)
       {
         fill(random(255), random(255), random(255));
         ellipse(xLoc, yLoc, i, i);
